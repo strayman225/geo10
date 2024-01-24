@@ -52,7 +52,7 @@ let stations = JSON.parse(document.getElementById('stations_json').textContent)
 // ADD MARKER //
 
 stations.forEach(stations => {
-     L.marker([stations.latitude, stations.longitude]).addTo(map).bindTooltip("<b>"+ stations.instituion + "</b>" + "</br>" + stations.category + "</br>" + stations.address + "</b>" + "</br>" + stations.telnumber).on('click',onclick)
+     L.marker([stations.latitude, stations.longitude]).addTo(map).bindTooltip("<b>"+ stations.institution + "</b>" + "</br>" + stations.category + "</br>" + stations.address + "</b>" + "</br>" + stations.telnumber).on('click',onclick)
 
 
      function onclick(e){
