@@ -13,6 +13,18 @@ body {
     grid-template-columns: 50% 50%;
 
     max-width: 960;
-    margin:auto;
+    max-height: 80%;
+    height: 800px;
     margin-top: 50px;
+
+    
+    background-color: yellow;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
