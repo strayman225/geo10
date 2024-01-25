@@ -2,30 +2,33 @@
 {% load static %}
 
 {% block content %}
-<div class="container" id="content" Style="align-content: center;">
+
+<div class="container" id="content" >
     <form method="post">
         {% csrf_token %}
-    <input class="btn btn-outline-primary" style="width: 500px; height: 50px;" type="submit" name="RO" value="Regional Office (RO)" />
+    <input class="btn btn-outline-primary" style="width: 80%; height: 10%; margin-top: 25px" type="submit" name="RO" value="Regional Office (RO)" />
     </br>
 </br>
-    <input class="btn btn-outline-primary" style="width: 500px; height: 50px;"  type="submit" name="PO" value="Provincial Offices (PO)" /> 
+    <input class="btn btn-outline-primary" style="width: 80%; height: 10%;"  type="submit" name="PO" value="Provincial Offices (PO)" /> 
     </br>
 </br>
     
-    <input class="btn btn-outline-primary" style="width: 500px; height: 50px;"  type="submit" name="TTI" value="TESDA Technology Institutions (TTI)" />
+    <input class="btn btn-outline-primary" style="width: 80%; height: 10%;"  type="submit" name="TTI" value="TESDA Technology Institutions (TTI)" />
     </br> 
 </br>
-<input class="btn btn-outline-primary" style="width: 500px; height: 50px;" type="submit" name="TAS" value="TESDA Administered Schools (TAS)" /> 
+<input class="btn btn-outline-primary" style="width: 80%; height: 10%;" type="submit" name="TAS" value="TESDA Administered Schools (TAS)" /> 
     </br>
 </br>
-<input class="btn btn-outline-primary" style="width: 500px; height: 50px;" type="submit" name="TVI" value="TESDA Vocational Institutions (TVI)" /> 
+<input class="btn btn-outline-primary" style="width: 80%; height: 10%;" type="submit" name="TVI" value="TESDA Vocational Institutions (TVI)" /> 
     </br>
 </br>
-    <input class="btn btn-outline-primary" style="width: 500px; height: 50px;" type="submit" name="ALL" value="ALL OFFICES AND SCHOOLS" />
+    <input class="btn btn-outline-primary" style="width: 80%; height: 10%;" type="submit" name="ALL" value="ALL OFFICES AND SCHOOLS" />
     </form>
 
-<form>    
-    <div id="map" style="height: 600px; width: 800px;"></div>
+    <form id="map" style="height: 100%; width: 100%; align-content:center; margin-top: 25px;"></form>>    
+    
+    </form>
+
 </div>
 
 
